@@ -1,0 +1,13 @@
+[
+    { "name": "New York", "country": "US" },
+    { "name": "London", "country": "GB" },
+    { "name": "Tokyo", "country": "JP" },
+    { "name": "Mumbai", "country": "IN" },
+    { "name": "Sydney", "country": "AU" },
+    { "name": "Cairo", "country": "EG" },
+    { "name": "Paris", "country": "FR" },
+    { "name": "São Paulo", "country": "BR" },
+    { "name": "Toronto", "country": "CA" },
+    { "name": "Moscow", "country": "RU" }
+  ]
+  

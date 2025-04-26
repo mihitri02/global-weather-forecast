@@ -1,0 +1,67 @@
+/* Basic Reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.5s, color 0.5s;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.search-box {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+}
+
+#suggestions {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#suggestions li:hover {
+  background-color: #f1f1f1;
+}
+
+.weather-icon {
+  width: 100px;
+  margin: 20px 0;
+}
+
+#weatherCard {
+  background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+  border: none;
+  border-radius: 20px;
+  color: #333;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Theme Based on Time */
+.morning {
+  background: linear-gradient(#FFDEE9, #B5FFFC);
+}
+
+.afternoon {
+  background: linear-gradient(#fbc2eb, #a6c1ee);
+}
+
+.night {
+  background: linear-gradient(#141E30, #243B55);
+  color: #f1f1f1;
+}
